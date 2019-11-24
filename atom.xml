@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://gerlegend.cn/"/>
-  <updated>2019-11-18T01:24:23.550Z</updated>
+  <updated>2019-11-24T15:10:45.470Z</updated>
   <id>https://gerlegend.cn/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>周复盘11/24</title>
+    <link href="https://gerlegend.cn/2019/11/22/internship/"/>
+    <id>https://gerlegend.cn/2019/11/22/internship/</id>
+    <published>2019-11-22T13:09:39.000Z</published>
+    <updated>2019-11-24T15:10:45.470Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;summary: 周复盘19/11/18-11/24&lt;/p&gt;
+&lt;h1 id=&quot;忙碌又充实的一周&quot;&gt;&lt;a href=&quot;#忙碌又充实的一周&quot; class=&quot;headerlink&quot; title=&quot;忙碌又充实的一周 @^@&quot;&gt;&lt;/a&gt;忙碌又充实的一周
+        
+      
+    
+    </summary>
+    
+      <category term="每周复盘" scheme="https://gerlegend.cn/categories/%E6%AF%8F%E5%91%A8%E5%A4%8D%E7%9B%98/"/>
+    
+    
+      <category term="每周复盘" scheme="https://gerlegend.cn/tags/%E6%AF%8F%E5%91%A8%E5%A4%8D%E7%9B%98/"/>
+    
+  </entry>
+  
+  <entry>
     <title>last half year in 2019</title>
     <link href="https://gerlegend.cn/2019/11/17/2019conclusion/"/>
     <id>https://gerlegend.cn/2019/11/17/2019conclusion/</id>
     <published>2019-11-17T13:07:00.000Z</published>
-    <updated>2019-11-18T01:24:23.550Z</updated>
+    <updated>2019-11-22T13:10:41.508Z</updated>
     
     <summary type="html">
     
@@ -35,10 +62,10 @@
     
     </summary>
     
-      <category term="feelings" scheme="https://gerlegend.cn/categories/feelings/"/>
+      <category term="thinking" scheme="https://gerlegend.cn/categories/thinking/"/>
     
     
-      <category term="feelings" scheme="https://gerlegend.cn/tags/feelings/"/>
+      <category term="thinking" scheme="https://gerlegend.cn/tags/thinking/"/>
     
   </entry>
   
