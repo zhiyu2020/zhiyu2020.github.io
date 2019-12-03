@@ -4,11 +4,11 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="分类, Embedded System Germany 林钊 ">
+    <meta name="keywords" content="标签: thesis, Embedded System Germany 林钊 ">
     <meta name="baidu-site-verification" content="4w2hmYWHZo">
     <meta name="google-site-verification" content="6OaaMyED0Z_CF7d5DrNFcYNm3Uivs1LgeTO-gSyBl4I">
     <meta name="360-site-verification" content>
-    <meta name="description" content="分类 | null">
+    <meta name="description" content="标签: thesis | null">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -16,7 +16,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>分类 | null</title>
+    <title>标签: thesis | null</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -283,7 +283,7 @@
                     ger_linzhao
                  -->
                 
-                    分类
+                    标签
                 
             </div>
 
@@ -307,42 +307,40 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
     
 
-<div id="category-cloud" class="container chip-container">
+<div id="tags" class="container chip-container">
     <div class="card">
         <div class="card-content">
             <div class="tag-title center-align">
-                <i class="fa fa-bookmark"></i>&nbsp;&nbsp;文章分类
+                <i class="fa fa-tags"></i>&nbsp;&nbsp;文章标签
             </div>
             <div class="tag-chips">
                 
                 
-                
-                <a href="/categories/thinking/" title="thinking: 1">
+                <a href="/tags/thinking/" title="thinking: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F9EBEA;">thinking
+                            data-tagname="thinking" style="background-color: #F9EBEA;">thinking
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/thesis/" title="thesis: 1">
+                <a href="/tags/thesis/" title="thesis: 1">
                     <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F5EEF8;">thesis
+                             chip-active "
+                            data-tagname="thesis" style="background-color: #F5EEF8;">thesis
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/每周复盘/" title="每周复盘: 1">
+                <a href="/tags/每周复盘/" title="每周复盘: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #D5F5E3;">每周复盘
+                            data-tagname="每周复盘" style="background-color: #D5F5E3;">每周复盘
                         <span class="tag-length">1</span>
                     </span>
                 </a>
-                
                 
             </div>
         </div>
@@ -350,64 +348,46 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 </div>
 
     
-    <style type="text/css">
-    #category-radar {
-        width: 100%;
-        height: 360px;
-    }
-</style>
 
-<div class="container" data-aos="fade-up">
-    <div class="card">
-        <div id="category-radar" class="card-content"></div>
-    </div>
-</div>
-
-<script type="text/javascript" src="/libs/echarts/echarts.min.js"></script>
-<script type="text/javascript">
-    let radarChart = echarts.init(document.getElementById('category-radar'));
-
-    
-
-    let option = {
-        title: {
-            left: 'center',
-            text: '文章分类雷达图',
-            textStyle: {
-                fontWeight: 500,
-                fontSize: 22
-            }
-        },
-        tooltip: {},
-        radar: {
-            name: {
-                textStyle: {
-                    color: '#3C4858'
-                }
-            },
-            indicator: [{"name":"thinking","max":2},{"name":"thesis","max":2},{"name":"每周复盘","max":2}],
-            nameGap: 5,
-            center: ['50%','55%'],
-            radius: '66%'
-        },
-        series: [{
-            type: 'radar',
-            color: ['#3ecf8e'],
-            itemStyle: {normal: {areaStyle: {type: 'default'}}},
-            data : [
-                {
-                    value : [1,1,1],
-                    name : '文章分类数量'
-                }
-            ]
-        }]
-    };
-
-    radarChart.setOption(option);
-</script>
-    
-
+    <article id="articles" class="container articles">
+        <div class="row tags-posts">
+            
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="thesis" data-aos="fade-up">
+                <div class="card">
+                    <a href="/2019/12/03/graduate-thesis/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="graduate_thesis">
+                            
+                            <span class="card-title">graduate_thesis</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-12-03
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fa fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/thesis/" class="post-category" target="_blank">
+                                thesis
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </article>
 </main>
+
 
     <footer class="page-footer bg-color">
     <div class="container row center-align">
