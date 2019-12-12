@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://gerlegend.cn/"/>
-  <updated>2019-12-06T05:06:37.722Z</updated>
+  <updated>2019-12-12T13:47:55.256Z</updated>
   <id>https://gerlegend.cn/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>learning_tech</title>
+    <link href="https://gerlegend.cn/2019/12/12/learning-tech/"/>
+    <id>https://gerlegend.cn/2019/12/12/learning-tech/</id>
+    <published>2019-12-12T11:43:43.000Z</published>
+    <updated>2019-12-12T13:47:55.256Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;summary:本节是对左耳听风学习章节的摘录 部分更新自己的感悟&lt;/p&gt;
+&lt;h1 id=&quot;高效学习-端正学习态度&quot;&gt;&lt;a href=&quot;#高效学习-端正学习态度&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="https://gerlegend.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="技术学习方法总结" scheme="https://gerlegend.cn/tags/%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
     <title>tech_learning_instruction</title>
     <link href="https://gerlegend.cn/2019/12/06/tech-learning-instruction/"/>
     <id>https://gerlegend.cn/2019/12/06/tech-learning-instruction/</id>
     <published>2019-12-06T04:25:53.000Z</published>
-    <updated>2019-12-06T05:06:37.722Z</updated>
+    <updated>2019-12-12T13:46:38.089Z</updated>
     
     <summary type="html">
     
@@ -38,10 +65,10 @@
     
     </summary>
     
-      <category term="learning_resources" scheme="https://gerlegend.cn/categories/learning-resources/"/>
+      <category term="技术" scheme="https://gerlegend.cn/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="learning_resources" scheme="https://gerlegend.cn/tags/learning-resources/"/>
+      <category term="技术资源" scheme="https://gerlegend.cn/tags/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%BA%90/"/>
     
   </entry>
   
