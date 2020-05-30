@@ -450,7 +450,7 @@ introduction(background):最近两周开始学习机器人相关的技术包括R
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    947
+                    945
                 </div>
                 
 
@@ -519,7 +519,9 @@ introduction(background):最近两周开始学习机器人相关的技术包括R
 </tbody></table>
 <p> <img src="server_ros.png" alt="server"><br> <img src="client_ros.png" alt="client"></p>
 </li>
-<li><p><strong>topic programming</strong><br> <img src="rostopic.png" alt="topic"><br> <img src="ros_topic_msg.png" alt="topic_msg"><br> 下面来看talker和subscriber分别做了什么</p>
+<li><p><strong>topic programming</strong></p>
+<ul>
+<li><p>msg 定义<br><img src="ros_topic_msg.png" alt="topic_msg"><br><img src="rostopic.png" alt="topic"><br><img src="ros_topic_msg.png" alt="topic_msg"><br>下面来看talker和subscriber分别做了什么</p>
 <table>
 <thead>
 <tr>
@@ -544,10 +546,12 @@ introduction(background):最近两周开始学习机器人相关的技术包括R
 <td>在回调函数中完成消息处理</td>
 </tr>
 </tbody></table>
-<p> <img src="topic_talker.png" alt="talker"><br> <img src="topic_subscriber.png" alt="subscriber"></p>
-<ul>
-<li>课后作业参考该<a href="https://blog.csdn.net/qq_42585108/article/details/104852100" target="_blank" rel="noopener">blog1</a></li>
-<li>还需在对应的camkelists配置好才行<pre><code>add_executable(talker src/talker.cpp)
+<p><img src="topic_talker.png" alt="talker"><br><img src="topic_subscriber.png" alt="subscriber"></p>
+</li>
+<li><p>课后作业参考该<a href="https://blog.csdn.net/qq_42585108/article/details/104852100" target="_blank" rel="noopener">blog1</a></p>
+</li>
+<li><p>还需在对应的camkelists配置好才行</p>
+<pre><code>add_executable(talker src/talker.cpp)
 target_link_libraries(talker ${catkin_LIBRARIES})
 # add_dependencies(talker ${PROJECT_NAME}_generate_messages_cpp)
 add_executable(listener src/listener.cpp)
@@ -558,8 +562,7 @@ target_link_libraries(listener ${catkin_LIBRARIES})
 </ul>
 </li>
 </ul>
-<pre><code>- msg 定义
-![topic_msg](ros_topic_msg.png)</code></pre><ul>
+<ul>
 <li><strong>action programming</strong><br><img src="ros_action.png" alt="action1"><br><img src="ros_action_msg.png" alt="action2"><br><img src="action_ros.png" alt="action3"><br><img src="action_cli_ros.png" alt="action4"></li>
 <li><strong>tf programming</strong><br><img src="tf.png" alt="tf1"><br><img src="tf_listener.png" alt="tf2"><br><a href="https://www.guyuehome.com/279" target="_blank" rel="noopener">作业参考</a></li>
 <li>以上步骤 每次完成相应的camke 都需要catkin_make check是否正确, 当然你们也需要给自己的ubuntu配上编程环境<a href="https://blog.csdn.net/weixin_35695879/article/details/85254422" target="_blank" rel="noopener">参考blog</a><ul>
