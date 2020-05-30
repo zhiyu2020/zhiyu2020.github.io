@@ -450,7 +450,7 @@ introduction(background):最近两周开始学习机器人相关的技术包括R
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    949
+                    947
                 </div>
                 
 
@@ -547,16 +547,12 @@ introduction(background):最近两周开始学习机器人相关的技术包括R
 <p> <img src="topic_talker.png" alt="talker"><br> <img src="topic_subscriber.png" alt="subscriber"></p>
 <ul>
 <li>课后作业参考该<a href="https://blog.csdn.net/qq_42585108/article/details/104852100" target="_blank" rel="noopener">blog1</a></li>
-<li>还需在对应的camkelists配置好才行<pre><code>add_executable(talker src&#x2F;talker.cpp)
+<li>还需在对应的camkelists配置好才行<pre><code>add_executable(talker src/talker.cpp)
 target_link_libraries(talker ${catkin_LIBRARIES})
 # add_dependencies(talker ${PROJECT_NAME}_generate_messages_cpp)
-add_executable(listener src&#x2F;listener.cpp)
+add_executable(listener src/listener.cpp)
 target_link_libraries(listener ${catkin_LIBRARIES})
-# add_dependencies(talker ${PROJECT_NAME}_generate_messages_cpp)</code></pre>
-
-
-
-</li>
+# add_dependencies(talker ${PROJECT_NAME}_generate_messages_cpp)</code></pre></li>
 </ul>
 </li>
 </ul>
