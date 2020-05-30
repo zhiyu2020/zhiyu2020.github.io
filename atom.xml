@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://gerlegend.cn/"/>
-  <updated>2019-12-12T13:47:55.256Z</updated>
+  <updated>2020-05-29T14:04:04.857Z</updated>
   <id>https://gerlegend.cn/</id>
   
   <author>
@@ -15,6 +15,49 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ros_beginner</title>
+    <link href="https://gerlegend.cn/2020/05/29/ros-beginner/"/>
+    <id>https://gerlegend.cn/2020/05/29/ros-beginner/</id>
+    <published>2020-05-29T05:40:23.000Z</published>
+    <updated>2020-05-29T14:04:04.857Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;introduction-background&quot;&gt;&lt;a href=&quot;#introduction-background&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="ros" scheme="https://gerlegend.cn/categories/ros/"/>
+    
+    
+      <category term="ros" scheme="https://gerlegend.cn/tags/ros/"/>
+    
+      <category term="slam" scheme="https://gerlegend.cn/tags/slam/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>bt_program</title>
+    <link href="https://gerlegend.cn/2020/01/10/bt-program/"/>
+    <id>https://gerlegend.cn/2020/01/10/bt-program/</id>
+    <published>2020-01-10T10:36:25.000Z</published>
+    <updated>2020-01-10T10:36:25.535Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>learning_tech</title>
