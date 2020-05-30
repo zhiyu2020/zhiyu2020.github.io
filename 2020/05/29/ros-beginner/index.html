@@ -516,15 +516,8 @@ introduction(background):最近两周开始学习机器人相关的技术包括R
 <td>在回调函数中完成服务请求+反馈(类似tcp/ip握手模型)</td>
 <td>等待Server处理后的应答结果</td>
 </tr>
-<tr>
-<td><img src="server_ros.png" alt="server"></td>
-<td></td>
-</tr>
-<tr>
-<td><img src="client_ros.png" alt="client"></td>
-<td></td>
-</tr>
 </tbody></table>
+<p> <img src="server_ros.png" alt="server"><br> <img src="client_ros.png" alt="client"></p>
 </li>
 <li><p><strong>topic programming</strong><br> <img src="rostopic.png" alt="topic"><br> <img src="ros_topic_msg.png" alt="topic_msg"><br> 下面来看talker和subscriber分别做了什么</p>
 <table>
@@ -568,6 +561,7 @@ add_executable(listener src/listener.cpp)
 target_link_libraries(listener ${catkin_LIBRARIES})
 # add_dependencies(talker ${PROJECT_NAME}_generate_messages_cpp)
 ```
+
 - msg 定义
 ![topic_msg](ros_topic_msg.png)</code></pre><ul>
 <li><strong>action programming</strong><br><img src="ros_action.png" alt="action1"><br><img src="ros_action_msg.png" alt="action2"><br><img src="action_ros.png" alt="action3"><br><img src="action_cli_ros.png" alt="action4"></li>
